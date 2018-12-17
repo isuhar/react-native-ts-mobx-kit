@@ -1,0 +1,39 @@
+{
+  "name": "intercom_mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "tsc": "tsc -w"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.2.2",
+    "@types/react-native-navigation": "^2.0.0",
+    "axios": "^0.18.0",
+    "mobx": "5.6.0",
+    "mobx-persist": "^0.4.1",
+    "mobx-react": "^5.4.3",
+    "prop-types": "^15.6.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-navigation": "^2.2.5",
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/react": "latest",
+    "@types/react-native": "latest",
+    "@types/react-test-renderer": "latest",
+    "babel-jest": "23.6.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.5",
+    "react-test-renderer": "16.6.3",
+    "typescript": "latest"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
